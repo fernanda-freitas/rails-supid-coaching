@@ -10,6 +10,7 @@ Biggest challnge:
 - Configure Form accordingly
 - Get params and implement the logic for different answers
 
+![Screen Shot 2022-06-30 at 12 21 15](https://user-images.githubusercontent.com/33285862/176665128-661c444a-f340-4097-97f6-114a73da5e6a.png)
 ![Screen Shot 2022-06-30 at 12 18 35](https://user-images.githubusercontent.com/33285862/176664723-85087cf7-5f98-4ba9-a5e1-390cabdc8553.png)
 ![Screen Shot 2022-06-30 at 12 18 56](https://user-images.githubusercontent.com/33285862/176664745-7018d407-4d31-4f37-8348-1f880590904e.png)
 ![Screen Shot 2022-06-30 at 12 18 19](https://user-images.githubusercontent.com/33285862/176664755-98ebfa5c-8a1f-4aaa-8a1b-af8d3fc6a8f2.png)
