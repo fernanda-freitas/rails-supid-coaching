@@ -1,3 +1,49 @@
-// Place all the styles related to the questions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+html, body, .container, .content {
+  height: 100%;
+}
+
+.container{
+  max-width: 600px;
+
+  .content{
+    margin-top: 20%;
+  }
+}
+
+@mixin card-spacing {
+  margin: 1.5rem 0rem;
+  padding: 1rem 0rem 1rem 2rem;
+  border-radius: 6px;
+}
+
+.user-side{
+  @include card-spacing();
+  border-left: 5px solid #ababab;
+  background-color: #f7f7f7;
+
+  span {
+    font-style: italic;
+  }
+}
+
+.coach-side{
+  span {
+    font-style: italic;
+  }
+
+  .answer-positive{
+    @include card-spacing();
+    border-left: 5px solid #19a865;
+    background-color: #e2ffed;
+  }
+  .answer-to-question{
+    @include card-spacing();
+    border-left: 5px solid #ffd147;
+    background-color: #fff9da;
+  }
+  .answer-negative{
+    @include card-spacing();
+    border-left: 5px solid #fc8686;
+    background-color: #ffefef;
+  }
+}

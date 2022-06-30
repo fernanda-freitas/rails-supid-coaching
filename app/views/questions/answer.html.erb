@@ -1,1 +1,25 @@
-<%= link_to 'Ask another question', 'ask' %>
+<div class="d-flex flex-column">
+  <div class="user-side">
+    <h4><%= @question %></h4>
+    <span>-You</span>
+  </div>
+  <div class="coach-side">
+    <% if @question == @correct_question %>
+      <div class="answer-positive">
+        <h4>Great!</h4>
+        <span>-Your coach</span>
+      </div>
+      <% elsif @question.include?('?') %>
+      <div class="answer-to-question">
+        <h4>Silly question, get dressed and go to work!</h4>
+        <span>-Your coach</span>
+      </div>
+      <% else %>
+      <div class="answer-negative">
+        <h4>I don't care, get dressed and go to work!</h4>
+        <span>-Your coach</span>
+      </div>
+    <% end %>
+  </div>
+  <%= link_to 'Ask another question', 'ask' %>
+</div>
